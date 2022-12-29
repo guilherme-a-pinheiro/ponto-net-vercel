@@ -1,0 +1,7 @@
+import { styled } from '@stitches/react';
+
+export const Mainimg = styled('div', {
+  width: '100%',
+  height: '100vh',
+  backgroundColor: 'red'
+})
