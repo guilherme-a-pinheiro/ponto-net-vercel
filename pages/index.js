@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../components/navbar';
 import styles from '../styles/Home.module.css'
 
 import { Nav } from './Nav';
@@ -27,6 +28,9 @@ export default function Home() {
           </div>
         </nav>
       </main>
+      
+      {/* Importando da pasta components */}
+      <Navbar/>
     </>
   )
 }
