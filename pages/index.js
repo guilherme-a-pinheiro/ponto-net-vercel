@@ -3,6 +3,7 @@ import styles from '../styles/Home.module.css'
 
 import Navbar from '../components/navbar'
 import Mainimg from '../components/mainimg'
+import Mainplanos from '../components/mainplanos'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <Navbar />
         <Mainimg />
+        <Mainplanos />
       </main>
     </>
   )
