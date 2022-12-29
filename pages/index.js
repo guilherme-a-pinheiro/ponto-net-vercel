@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import { Nav } from './Nav';
-// Nao to conseguindo utilizar components
+import Nav from '../components/Nav';
 
 export default function Home() {
   return (
@@ -13,19 +12,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main className={styles.main}>
-        <nav className={styles.nav}>
-          <a href="#">Imagem</a>
-
-          <div className={styles.navContent}>
-            <ul>
-              <li><a href="#">Teste de Velocidade</a></li>
-              <li><a href="#">Nossos Planos</a></li>
-              <li><a href="#">Atendimentos</a></li>
-              <li><a href="#">Quem somos</a></li>
-              <li><a href="#" className={styles.navAreaDoCliente}>Área do cliente</a></li>
-            </ul>
-          </div>
-        </nav>
+        <Nav />
+        
       </main>
     </>
   )
