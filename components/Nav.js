@@ -6,6 +6,7 @@ export default function Nav() {
 
   const Button = styled('.navContent', {
     backgroundColor: 'red',
+    color: '#000'
   })
 
   return (
