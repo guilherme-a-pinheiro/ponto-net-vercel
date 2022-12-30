@@ -5,6 +5,7 @@ import Navbar from '../components/navbar'
 import Mainimg from '../components/mainimg'
 import Mainplanos from '../components/mainplanos'
 import Infos from '../components/infos'
+import Qualidades from '../components/qualidades'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <Mainimg />
         <Mainplanos />
         <Infos />
+        <Qualidades />
       </main>
     </>
   )
