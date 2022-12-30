@@ -14,82 +14,22 @@ export default function Mainplanos() {
             <button>Empresarial</button>
             <button>Pessoa Jurídica</button>
           </div>
-          <S.Descricao>
-            <div>
-              <div>
-                <span>Nome</span>
-                <span>Descrição</span>
-              </div>
-              <div>
-                <span>300</span>
-                <span>MEGA</span>
-              </div>
-              <ul>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-              </ul>
-              <button>Assinar</button>
-            </div>
-          </S.Descricao>
-          <S.Descricao>
-            <div>
-              <div>
-                <span>Nome</span>
-                <span>Descrição</span>
-              </div>
-              <div>
-                <span>300</span>
-                <span>MEGA</span>
-              </div>
-              <ul>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-              </ul>
-              <button>Assinar</button>
-            </div>
-          </S.Descricao>
-          <S.Descricao>
-            <div>
-              <div>
-                <span>Nome</span>
-                <span>Descrição</span>
-              </div>
-              <div>
-                <span>300</span>
-                <span>MEGA</span>
-              </div>
-              <ul>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-              </ul>
-              <button>Assinar</button>
-            </div>
-          </S.Descricao>
-          <S.Descricao>
-            <div>
-              <div>
-                <span>Nome</span>
-                <span>Descrição</span>
-              </div>
-              <div>
-                <span>300</span>
-                <span>MEGA</span>
-              </div>
-              <ul>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-                <li>Descrição item</li>
-              </ul>
-              <button>Assinar</button>
-            </div>
-          </S.Descricao>
+          <S.Catalogo>
+            <S.Item>
+              <h1>Oi</h1>
+              <h2>Teste</h2>
+            </S.Item>
+            <S.Item>
+              <h1>Oi</h1>
+              <h2>Teste</h2>
+            </S.Item><S.Item>
+              <h1>Oi</h1>
+              <h2>Teste</h2>
+            </S.Item><S.Item>
+              <h1>Oi</h1>
+              <h2>Teste</h2>
+            </S.Item>
+          </S.Catalogo>
         </main>
       </S.Content>
     </S.Mainplanos>

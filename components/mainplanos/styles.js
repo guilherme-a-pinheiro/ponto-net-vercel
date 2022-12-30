@@ -46,9 +46,16 @@ export const Planos = styled('div', {
   fontFamily: 'Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif'
 })
 
-export const Descricao = styled('div', {
-  display: 'flex',
-  width: '100%',
+export const Catalogo = styled('div', {
+  height: '347px',
+  borderRadius: '4px',
+})
+
+export const Item = styled('div', {
+  height: '347px',
+  width: '220px',
   backgroundColor: '#fff',
-  color: '#000',
+  display: 'flex',
+  justifyContent: 'center',
+  padding: '0px 30px'
 })
