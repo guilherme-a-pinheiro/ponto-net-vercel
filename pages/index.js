@@ -8,6 +8,7 @@ import Infos from '../components/infos'
 import Qualidades from '../components/qualidades'
 import NossosClientes from '../components/nossosclientes'
 import Contato from '../components/contato'
+import Conectese from '../components/conectese'
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Qualidades />
         <NossosClientes />
         <Contato />
+        <Conectese />
       </main>
     </>
   )
