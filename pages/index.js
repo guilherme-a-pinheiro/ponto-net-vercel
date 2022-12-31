@@ -7,6 +7,7 @@ import Mainplanos from '../components/mainplanos'
 import Infos from '../components/infos'
 import Qualidades from '../components/qualidades'
 import NossosClientes from '../components/nossosclientes'
+import Contato from '../components/contato'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Infos />
         <Qualidades />
         <NossosClientes />
+        <Contato />
       </main>
     </>
   )
