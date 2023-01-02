@@ -9,6 +9,7 @@ import Qualidades from '../components/qualidades'
 import NossosClientes from '../components/nossosclientes'
 import Contato from '../components/contato'
 import Conectese from '../components/conectese'
+import Rodape from '../components/rodape'
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <NossosClientes />
         <Contato />
         <Conectese />
+        <Rodape />
       </main>
     </>
   )
