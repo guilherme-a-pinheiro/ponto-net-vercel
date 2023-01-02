@@ -1,61 +1,73 @@
 import { styled } from '@stitches/react';
 
-export const Mainplanos = styled('div', {
-  width: '100%',
+export const Main = styled('div', {
+  width: '100vw',
   height: '100vh',
-  backgroundColor: '#004682',
+  backgroundColor: 'green',
+  display: 'flex',
   padding: '64px 0px',
-    main: {
-      Descricao: {
-        display: 'flex'
-      }
-    }
 })
 
 export const Content = styled('div', {
-  width: '1200px',
-  margin: '0px auto',
-  height: '100%',
-  backgroundColor: 'red',
-  h2: {
-    width: '550px',
-    padding: '0px',
-    margin: '8px 0px 20px',
-    fontSize: '40px',
-    fontWeight: 'bold'
-  },
-  main: {
-    div: {
-      display: 'flex',
-      button: {
-        borderBottom: '1px solid rgb(20, 104, 177)',
-        width: '100%',
-        color: '#fff',
-        fontWeight: 600,
-        height: '45px',
-        backgroundColor: 'inherit'
-      }
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'orange',
+    padding: '0px 100px', 
+    h2: {
+    margin: '8px 0px 20px 0px'
     }
+})
+
+export const DivPlanos = styled('div', {
+})
+
+export const Options = styled('div', {
+})
+
+export const ButtonOptions = styled('div', {
+  width: '100%',
+  height: '45px',
+  backgroundColor: 'red',
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  button: {
+    width: '360px',
+    height: '100%'
   }
 })
 
-export const Planos = styled('div', {
-  fontSize: '20px',
-  fontWeight: '600',
-  color: '#30D2FF',
-  fontFamily: 'Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif'
+export const PlansOptions = styled('div', {
+  width: '100%',
+  height: '427px',
+  backgroundColor: 'green',
+  padding: '16px 0px',
+  display: 'flex'
 })
 
-export const Catalogo = styled('div', {
-  height: '347px',
-  borderRadius: '4px',
+export const ProductOption = styled('div', {
+ width: '100%',
+ height: '100%',
+ backgroundColor: 'pink',
+ padding: '0px 18px',
+ display: 'flex',
+ justifyContent: 'space-between'
 })
 
-export const Item = styled('div', {
-  height: '347px',
-  width: '220px',
-  backgroundColor: '#fff',
-  display: 'flex',
-  justifyContent: 'center',
-  padding: '0px 30px'
+export const Product = styled('div', {
+ width: '300px',
+ height: '363px',
+ backgroundColor: '#fff',
+ padding: '32px',
+ textAlign: 'center'
+})
+
+export const ProductHeader = styled('div', {
+ 
+})
+
+export const ProductContent = styled('div', {
+ width: '100%',
+ height: '58px',
+ padding: '16px 0px'
 })
