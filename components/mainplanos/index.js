@@ -18,12 +18,12 @@ export default function Mainplanos() {
         <S.ProductOption>
           <S.Product>
             <S.ProductHeader>
-              <div>500 mega</div>
+              <div>500 Mega</div>
               <span>500 Mega de Download / 500 Mega de Upload</span>
             </S.ProductHeader>
             <S.ProductContent>
               500
-              <span>Mega</span>
+              <span>MEGA</span>
             </S.ProductContent>
             <ul>
               <li>Descrição item</li>
@@ -40,7 +40,7 @@ export default function Mainplanos() {
             </S.ProductHeader>
             <S.ProductContent>
               500
-              <span>Mega</span>
+              <span>MEGA</span>
             </S.ProductContent>
             <ul>
               <li>Descrição item</li>
@@ -57,7 +57,7 @@ export default function Mainplanos() {
             </S.ProductHeader>
             <S.ProductContent>
               500
-              <span>Mega</span>
+              <span>MEGA</span>
             </S.ProductContent>
             <ul>
               <li>Descrição item</li>
