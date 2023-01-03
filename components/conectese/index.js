@@ -5,10 +5,10 @@ export default function Conectese() {
   return (
     <>
       <S.Main>
-        <S.Content>
           <div>
             <h2>Conecte-se com a gente!</h2>
           </div>
+        <S.Content>
           <S.Form>
             <form action="">
               <S.CampoForms>
