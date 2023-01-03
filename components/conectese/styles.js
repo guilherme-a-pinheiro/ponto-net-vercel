@@ -9,10 +9,16 @@ export const Main = styled('div', {
 })
 
 export const Content = styled('div', {
-  width: '100%',
+  width: '90%',
   height: '100%',
   backgroundColor: 'blue',
   display: 'block',
+  margin: '0px 70px',
+  div: {
+    h2: {
+      textAlign: 'center'
+    }
+  }
 })
 
 export const Form = styled('div', {
@@ -50,7 +56,6 @@ export const CampoForms = styled('div', {
 export const CampoFormsEndereco = styled('div', {
   display: 'flex',
   width: '656px',
-  backgroundColor: 'red',
   justifyContent: 'space-between'
 })
 
