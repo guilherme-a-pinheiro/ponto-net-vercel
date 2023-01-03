@@ -7,14 +7,7 @@ export const Navbar = styled('div', {
   fontSize: '16px',
   display: 'flex',
   alignItems: 'center',
-  fontFamily: 'Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif',
-  '@bp1': {
-    fontSize: '13px',
-    padding: '0 16px',
-  },
-  '@bp2': {
-    height: '60px',
-  },
+  fontFamily: 'Montserrat,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif'
 })
 
 export const Container = styled('div', {
@@ -28,15 +21,10 @@ export const Container = styled('div', {
       display: 'inline-block',
       '&:last-child': {
         a: {
-          height: '35px',
           background: '#fff',
           borderRadius: '4px',
           color: '#002646',
           textDecoration: 'none',
-          '&:hover': {
-            color: '#000',
-            background: '#ccc',
-          },
         },
         height: '35px',
         background: '#fff',
@@ -48,21 +36,8 @@ export const Container = styled('div', {
         cursor: 'pointer',
         borderRadius: '4px',
         color: '#fff',
-        transition: '0.5s',
-        '&:hover': {
-          background: '#004682',
-          padding: '8px 16px',
-        },
+        textDecoration: 'none'
       },
-    },
-  },
-  '@bp1': {
-    width: '100%',
-  },
-  '@bp2': {
-    justifyContent: 'flex-start',
-    ul: {
-      display: 'none',
     },
   },
 })

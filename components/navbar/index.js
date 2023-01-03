@@ -15,19 +15,16 @@ export default function Navbar() {
           </Link>
           <ul>
             <li>
-              <a href="/home">Página Inicial</a>
+              <Link href="#">Teste de Velocidade</Link>
             </li>
             <li>
-              <Link href="/testedevelocidade">Teste de Velocidade</Link>
+              <a href="#">Nossos Planos</a>
             </li>
             <li>
-              <a href="#plans">Nossos Planos</a>
+              <a href="#">Atendimento</a>
             </li>
             <li>
-              <a href="#company">Atendimento</a>
-            </li>
-            <li>
-              <a href="#about">Quem Somos</a>
+              <a href="#">Quem Somos</a>
             </li>
             <li>
               <a
