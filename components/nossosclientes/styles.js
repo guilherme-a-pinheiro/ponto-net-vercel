@@ -3,7 +3,7 @@ import { styled } from '@stitches/react';
 export const Main = styled('div', {
   width: '100%',
   height: '100vh',
-  backgroundColor: 'red',
+  backgroundColor: '#fff',
   padding: '64px 0px',
   display: 'flex'
 })
@@ -11,12 +11,20 @@ export const Main = styled('div', {
 export const Content = styled('div', {
   width: '100%',
   height: '100vh',
-  backgroundColor: 'blue',
+  backgroundColor: '#fff',
   margin: '0px 60px',
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'center',
-  textAlign: 'center'
+  textAlign: 'center', 
+  h4: {
+    fontSize: '40px',
+    fontWeight: '700',
+    margin: '0'
+  },
+  p: {
+    fontSize: '16px'
+  }
 })
 
 export const Clientes = styled('div', {
@@ -30,7 +38,7 @@ export const Clientes = styled('div', {
 })
 
 export const Cliente = styled('div', {
-  width: '224px',
+  width: '235px',
   height: '224px',
   backgroundColor: '#fff',
   display: 'flex',
