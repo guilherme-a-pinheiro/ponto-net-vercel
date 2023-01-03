@@ -8,8 +8,8 @@ export default function Infos() {
       <S.Main>
         <S.Content>
           <S.Left>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, consectetur.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem ullam, dolorum tempore libero dicta autem?</p>
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis facere ipsam blanditiis, accusamus odio nam possimus.</p>
           </S.Left>
           <S.Right>
             <h1>Imagem</h1>
