@@ -38,7 +38,7 @@ export const Clientes = styled('div', {
 })
 
 export const Cliente = styled('div', {
-  width: '235px',
+  width: '225px',
   height: '224px',
   backgroundColor: '#fff',
   display: 'flex',
