@@ -5,9 +5,9 @@ import Image from 'next/image'
 export default function Mainimg() {
   return (
     <>
-    <S.Mainimg>
-      Oi
-    </S.Mainimg>
+    <S.Main>
+      <S.Content></S.Content>
+    </S.Main>
     </>
   )
 }
