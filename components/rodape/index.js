@@ -10,6 +10,7 @@ export default function Rodape() {
             <S.SocialMedia>
               <h1>Lorem</h1>
               <S.SocialMediaIcons>
+                <p>Social Media Icons</p>
               </S.SocialMediaIcons>
               <p>Nos acompanhe nas redes sociais</p>
             </S.SocialMedia>
