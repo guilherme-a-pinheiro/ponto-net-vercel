@@ -1,26 +1,28 @@
 import { styled } from '@stitches/react';
 
+export const Planos = styled('div', {
+})
+
 export const Main = styled('div', {
-  width: '1264px',
-  height: '100vh',
-  backgroundColor: 'rgb(0, 70, 130)',
-  display: 'flex',
+  width: '100%',
   padding: '64px 0px',
+  backgroundColor: 'rgb(0, 70, 130)',
+  color: '#fff'
 })
 
 export const Content = styled('div', {
-    width: '1000px',
-    height: '100%',
+    width: '1200px',
+    margin: '0 auto',
     backgroundColor: 'rgb(0, 70, 130)',
     padding: '0px 100px', 
-    h2: {
-    margin: '8px 0px 20px 0px',
-    width: '500px',
-    padding: '0px',
-    fontSize: '40px',
-    fontWeight: 'bold',
-    color: '#fff'
-    }
+})
+
+export const PlanosText = styled('h2', {
+  width: '550px',
+  padding: '0px',
+  margin: '8px 0px 20px',
+  fontSize: '40px',
+  fontWeight: 'bold'
 })
 
 export const DivPlanos = styled('div', {
@@ -30,50 +32,45 @@ export const DivPlanos = styled('div', {
 })
 
 export const Options = styled('div', {
+  width: '100%'
 })
 
 export const ButtonOptions = styled('div', {
-  width: '1100px',
+  display: 'flex',
+  borderBottom: '1px solid rgb(20, 104, 177)',
+  cursor: 'pointer'
+})
+
+export const Button = styled('button', {
+  width: '100%',
+  fontFamily: 'inherit',
   height: '45px',
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'space-between',
-  borderBottom: '1px solid rgb(20, 104, 177)',
-  
-  button: {
-    width: '100%',
-    height: '100%',
-    backgroundColor: 'rgb(0, 70, 130)',
-    color: '#fff',
-    fontWeight: '600',
-    fontSize: '15px',
-    border: 'none'
-  }
+  fontSize: '15px',
+  color: '#fff',
+  padding: '0px 20px',
+  overflow: 'hidden',
+  justifyContent: 'center'
 })
 
 export const PlansOptions = styled('div', {
-  width: '1100px',
-  height: '427px',
-  backgroundColor: 'rgb(0, 70, 130)',
   padding: '16px 0px',
-  display: 'flex'
+  borderBottomLeftRadius: '6px',
+  borderBottomRightRadius: '6px',
 })
 
 export const ProductOption = styled('div', {
  width: '100%',
- height: '100%',
- backgroundColor: 'rgb(0, 70, 130)',
- padding: '0px 18px',
- display: 'flex',
- justifyContent: 'space-between'
+ display: 'inline-block',
+ padding: '0px 8px'
 })
 
 export const Product = styled('div', {
- width: '280px',
- height: '363px',
- backgroundColor: '#fff',
  padding: '32px',
+ color: 'rgba(0, 0, 0, 0.87)',
  textAlign: 'center',
+ backgroundColor: '#fff',
  borderRadius: '10px',
  ul: {
   listStyle: 'none',
@@ -81,34 +78,36 @@ export const Product = styled('div', {
   li: {
     padding: '8px 0px'
   }
- },
- button: {
-  height: '35px',
-  width: '85px',
-  padding: '0px 15px',
-  textAlign: 'center',
-  border: 'none',
-  backgroundColor: 'rgb(0, 70, 130)', 
-  color: '#fff',
-  borderRadius: '4px',
-  cursor: 'pointer',
-  fontSize: '15px'
  }
+})
+
+export const ButtonProduct = styled('button', {
+  display: 'inline-flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  fontSize: '15px',
+  fontWeight: '500',
+  height: '35px',
+  cursor: 'pointer',
+  borderRadius: '4 px',
+  padding: '0px 15px'
 })
 
 export const ProductHeader = styled('div', {
- div: {
   fontSize: '20px',
-  fontWeight: 'bold'
- }
+  fontWeight: 'bold',
+  span: {
+    display: 'block',
+    marginTop: '40px',
+    fontSize: '16px',
+    fontWeigt: '400'
+  }
 })
 
 export const ProductContent = styled('div', {
- width: '100%',
- height: '58px',
  padding: '16px 0px',
-  fontSize: '48px',
-  fontWeight: '700',
+ fontSize: '48px',
+ fontWeight: 'bold',
   span: {
     fontSize: '24px',
     fontWeight: '500'
