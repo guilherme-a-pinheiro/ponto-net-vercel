@@ -9,9 +9,6 @@ export const Main = styled('div', {
 export const Content = styled('div', {
   width: '1200px',
   margin: '0px auto', 
-  p: {
-    fontSize: '16px'
-  }
 })
 
 export const h4Content = styled('h4', {
