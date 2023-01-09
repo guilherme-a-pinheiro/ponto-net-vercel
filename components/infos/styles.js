@@ -1,36 +1,41 @@
 import { styled } from '@stitches/react';
 
+export const Info = styled('div', {
+
+})
+
 export const Main = styled('div', {
-  width: '90vw',
-  height: '85vh',
-  backgroundColor: '#fff',
-  display: 'flex',
-  padding: '64px 0px',
+    width: '100%',
+    backgroundColor: '#fff',
+    padding: '64px 0px',
+    color: 'rgba(0, 0, 0, 0.87)'
 })
 
 export const Content = styled('div', {
-    width: '100%',
-    backgroundColor: '#fff',
+    width: '1200px',
+    margin: '0px auto'
+})
+
+export const MainContent = styled('div', {
     display: 'flex',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: '0px 0px 0px 80px'
+    justifyContent: 'space-between'
 })
 
 export const Left = styled('div', {
   width: '460px',
-  height: '236px',
-  backgroundColor: '#fff',
-  justifyContent: 'center',
-  h2: {
-    fontSize: '40px', 
-    fontWeight: '700'
-  }
+  display: 'flex',
+  alignItems: 'center'
+})
+
+export const H2Left = styled('h2', {
+  fontSize: '40px',
+  margin: '0',
+  padding: '0px'
 })
 
 export const Right = styled('div', {
   width: '534px',
-  height: '417px',
+  height: '421px',
   justifyContent: 'center',
   textAlign: 'center',
   backgroundColor: 'red'
