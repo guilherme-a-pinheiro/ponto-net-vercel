@@ -45,6 +45,8 @@ export const Button = styled('button', {
   width: '100%',
   fontFamily: 'inherit',
   height: '45px',
+  backgroundColor: 'rgb(0, 70, 130)',
+  border: 'none',
   display: 'flex',
   alignItems: 'center',
   fontSize: '15px',
@@ -62,9 +64,12 @@ export const PlansOptions = styled('div', {
 
 export const ProductOption = styled('div', {
  width: '100%',
- display: 'inline-block',
- padding: '0px 8px'
+ display: 'flex',
 })
+
+export const ProductSpacing = styled('div', {
+  padding: '0px 8px'
+ })
 
 export const Product = styled('div', {
  padding: '32px',
@@ -85,11 +90,14 @@ export const ButtonProduct = styled('button', {
   display: 'inline-flex',
   alignItems: 'center',
   justifyContent: 'center',
+  backgroundColor: 'rgb(0, 70, 130)',
+  color: '#fff',
+  border: 'none',
   fontSize: '15px',
   fontWeight: '500',
-  height: '35px',
+  height: '32px',
   cursor: 'pointer',
-  borderRadius: '4 px',
+  borderRadius: '4px',
   padding: '0px 15px'
 })
 
@@ -98,9 +106,8 @@ export const ProductHeader = styled('div', {
   fontWeight: 'bold',
   span: {
     display: 'block',
-    marginTop: '40px',
     fontSize: '16px',
-    fontWeigt: '400'
+    fontWeight: '400'
   }
 })
 
