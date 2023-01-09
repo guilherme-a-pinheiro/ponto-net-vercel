@@ -7,19 +7,19 @@ export default function NossosClientes() {
     <>
     <S.Main>
       <S.Content>
-        <h4>Nossos clientes</h4>
-        <p>Lorem ipsum dolor sit amet consectetur.</p>
+        <S.h4Content>Nossos clientes</S.h4Content>
+        <S.PContent>Lorem ipsum dolor sit amet consectetur.</S.PContent>
         <S.Clientes>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
-          <S.Cliente><h1>Imagem</h1></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
+          <S.Cliente></S.Cliente>
         </S.Clientes>
       </S.Content>
     </S.Main>
