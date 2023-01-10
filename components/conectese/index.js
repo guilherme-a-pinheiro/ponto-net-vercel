@@ -4,50 +4,49 @@ import * as S from './styles'
 export default function Conectese() {
   return (
     <>
-      <S.Main>
-          <div>
-            <h2>Conecte-se com a gente!</h2>
-          </div>
+      <S.Conecte>
+        <S.Main>
         <S.Content>
+            <S.H2Content>Conecte-se com a gente!</S.H2Content>
           <S.Form>
             <form action="">
               <S.CampoForms>
-                <div>
-                  <label htmlFor="">Nome*</label>
-                  <input type="text" name="" id="" placeholder="Nome" />
-                </div>
+                  <S.LabelForm htmlFor="">Nome*</S.LabelForm>
+                  <S.InputForm type="text" name="" id="" placeholder="Nome" />
               </S.CampoForms>
               <S.CampoForms>
-                <label htmlFor="">Telefone*</label>
-                <input type="text" name="" id="" placeholder="Telefone" />
+                <S.LabelForm htmlFor="">Telefone*</S.LabelForm>
+                <S.InputForm type="text" name="" id="" placeholder="Telefone" />
               </S.CampoForms>
               <S.CampoForms>
-                <label htmlFor="">E-mail*</label>
-                <input type="text" name="" id="" placeholder="E-mail" />
+                <S.LabelForm htmlFor="">E-mail*</S.LabelForm>
+                <S.InputForm type="text" name="" id="" placeholder="E-mail" />
               </S.CampoForms>
               <S.CampoForms>
-                <label htmlFor="">Endereço*</label>
-                <input type="text" name="" id="" placeholder="Endereço" />
+                <S.LabelForm htmlFor="">Endereço*</S.LabelForm>
+                <S.InputForm type="text" name="" id="" placeholder="Endereço" />
               </S.CampoForms>
               <S.CampoFormsEndereco>
-                <S.CampoFormsEnderecoItem>
-                <label htmlFor="">Número*</label>
-                <input type="text" name="" id="" placeholder="Número" />
-                </S.CampoFormsEnderecoItem>
-                <S.CampoFormsEnderecoItem>
-                <label htmlFor="">CEP*</label>
-                <input type="text" name="" id="" placeholder="CEP" />
-                </S.CampoFormsEnderecoItem>
+                <S.CampoForms>
+                <S.LabelForm htmlFor="">Endereço*</S.LabelForm>
+                <S.InputForm type="text" name="" id="" placeholder="Endereço" />
+                </S.CampoForms>
+                <S.EspacoForms />
+                <S.CampoForms>
+                <S.LabelForm htmlFor="">Endereço*</S.LabelForm>
+                <S.InputForm type="text" name="" id="" placeholder="Endereço" />
+                </S.CampoForms>
               </S.CampoFormsEndereco>
               <S.CampoForms>
-                <label htmlFor="">Assunto*</label>
-                <input type="text" name="" id="" placeholder="Assunto" />
+                <S.LabelForm htmlFor="">Assunto*</S.LabelForm>
+                <S.InputForm type="text" name="" id="" placeholder="Assunto" />
               </S.CampoForms>
-              <button type="submit">Enviar</button>
+              <S.ButtonForms type="submit">Enviar</S.ButtonForms>
             </form>
           </S.Form>
         </S.Content>
-      </S.Main>
+        </S.Main>
+      </S.Conecte>
     </>
   )
 }

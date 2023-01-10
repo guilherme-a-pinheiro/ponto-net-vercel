@@ -1,90 +1,90 @@
 import { styled } from '@stitches/react';
 
+export const Conecte = styled('div', {
+})
+
 export const Main = styled('div', {
   width: '100%',
-  height: '100vh',
+  padding: '64px 0px',
   backgroundColor: '#004682',
-  padding: '62px 0px 120px 0px',
-  display: 'flex',
-  flexDirection: 'column',
-  div: {
-    h2: {
-      textAlign: 'center',
-      color: '#fff',
-      fontSize: '32px',
-      fontWeight: '600',
-      margin: '16px 0px 32px',
-      padding: '0'
-    }
-  }
+  color: 'rgba(0, 0, 0, 0.87)'
 })
 
 export const Content = styled('div', {
-  width: '90%',
-  height: '100%',
-  backgroundColor: '#004682',
-  display: 'block',
-  margin: '0px 50px',
+ width: '1200px',
+ margin: '0px auto'
+})
+
+export const H2Content = styled('h2', {
+ fontSize: '32px',
+ margin: '16px 0px 32px',
+ padding: '0px',
+ textAlign: 'center',
+ color: '#fff',
+ fontWeight: '600'
 })
 
 export const Form = styled('div', {
   width: '648px',
-  height: '550px',
   padding: '24px',
+  borderRadius: '8px',
+  margin: '0px auto',
   backgroundColor: '#fff',
   border: '4px solid rgb(41, 135, 217)',
-  margin: '0px 250px',
-  borderRadius: '10px',
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    button: {
-      width: '78px',
-      height: '35px',
-      padding: '0px 15px',
-      textAlign: 'center'
-    }
-  },
-  button: {
-    backgroundColor: '#004682',
-    color: '#fff',
-    cursor: 'pointer',
-    width: '78px',
-    height: '35px',
-    border: 'none',
-    fontSize: '15px',
-    borderRadius: '4px'
-  }
+  color: 'rgba(0, 0, 0, 0.87)'
 })
 
-export const CampoForms = styled('div', {
-  padding: '0px 0px 15px 0px',
-  label: {
-    display: 'block',
-    padding: '0px 0px 10px 0px'
-  },
-  input: {
-    width: '100%',
-    height: '35px'
-  }
+export const CampoForms = styled('fieldset', {
+  all: 'unset',
+  marginBottom: '15px',
+  width: '100%',
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'flex-start'
+})
+
+export const LabelForm = styled('label', {
+  fontSize: '13px',
+  lineHeight: '1',
+  marginBottom: '10px',
+  display: 'block',
+  color: 'rgba(0, 0, 0, 0.87)'
+})
+
+export const InputForm = styled('input', {
+  all: 'unset',
+  fontSize: '15px',
+  lineHeight: '1',
+  color: 'rgba(0, 0, 0, 0.87)',
+  boxShadow: 'rgb(206, 206, 206) 0px 0px 0px 1px',
+  height: '35px',
+  flex: '1 0 auto',
+  borderRadius: '4px',
+  padding: '0px 10px'
 })
 
 export const CampoFormsEndereco = styled('div', {
-  display: 'flex',
-  width: '656px',
-  justifyContent: 'space-between'
+  width: '100%',
+  display: 'flex'
 })
 
-export const CampoFormsEnderecoItem = styled('div', {
-  padding: '0px 0px 15px 0px',
-  label: {
-    display: 'block',
-    padding: '0px 0px 10px 0px'
-  },
-  input: {
-    height: '35px',
-    width: '315px'
-  }
+export const EspacoForms = styled('div', {
+  width: '16px',
+  height: '16px'
 })
 
+export const ButtonForms = styled('button', {
+  all: 'unset',
+  display: 'inline-flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  fontSize: '15px',
+  lineHeight: '1',
+  fontWeight: '500',
+  height: '35px',
+  cursor: 'pointer',
+  borderRadius: '4px',
+  padding: '0px 15px',
+  backgroundColor: '#004682',
+  color: '#fff'
+})
