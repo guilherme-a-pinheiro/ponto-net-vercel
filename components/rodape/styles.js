@@ -1,80 +1,99 @@
 import { styled } from '@stitches/react';
 
-export const Main = styled('div', {
+export const Rodape = styled('div', {
   width: '100%',
-  height: '60vh',
-  backgroundColor: '#fff',
   padding: '64px 0px',
-  display: 'flex',
+  backgroundColor: '#fff',
+  color: 'rgba(0, 0, 0, 0.87)'
 })
 
-export const Container = styled('div', {
-  width: '100%',
-  height: '100%',
-  backgroundColor: '#fff',
-  margin: '0px 100px'
+export const Main = styled('div', {
+  width: '1200px',
+  margin: '0px auto'
 })
 
 export const Content = styled('div', {
-  width: '100%',
-  height: '258px',
-  backgroundColor: '#fff',
   display: 'flex',
   justifyContent: 'space-between',
-  margin: '0px 0px 48px 0px'
+  marginBottom: '48px'
 })
 
-export const SocialMedia = styled('div', {
-  width: '265px',
-  height: '258px',
-  backgroundColor: '#fff',
+export const ContainerSocialMedia = styled('div', {
+  
 })
 
-export const SocialMediaIcons = styled('div', {
-  width: '100%',
-  height: '32px',
-  backgroundColor: '#fff',
-  margin: '48px 0'
-})
-
-export const Links = styled('div', {
-  width: '55px',
-  height: '258px',
-  backgroundColor: '#fff',
+export const ContainerSocialMediaIcons = styled('div', {
   display: 'flex',
-  flexWrap: 'wrap',
-  a: {
-    textDecoration: 'none',
-    color: '#000'
+  margin: '48px 0px'
+})
+
+export const Icons = styled('div', {
+  width: '32px',
+  height: '32px',
+  marginRight: '16px',
+  borderRadius: '4px',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  backgroundColor: 'rgb(248, 247, 254)'
+})
+
+export const ContainerLinks = styled('div', {
+  ul: {
+    padding: '0px',
+    margin: '0px',
+    li: {
+      listStyle: 'none',
+      a: {
+        padding: '8px 0px',
+        display: 'block',
+        cursor: 'pointer',
+        borderRadius: '4px',
+        textDecoration: 'none',
+        color: 'inherit'
+      }
+    }
   }
 })
 
-export const QrCode = styled('div', {
-  width: '215px',
-  height: '217px',
-  backgroundColor: '#fff',
-  padding: '18px',
-  border: '1px solid rgb(179, 179, 179)',
-  borderRadius: '4px',
-  display: 'flex',
-  flexWrap: 'wrap',
-  justifyContent: 'center'
+export const ContainerApp = styled('div', {
+  
+})
+
+export const ContainerAppContent = styled('div', {
+  width: '300px',
+  padding: '20px',
+  borderRadius: '8px',
+  border: '1px solid rgb(179, 179, 179)'
 })
 
 export const GetIt = styled('div', {
-  width: '100%',
   display: 'flex',
-  justifyContent: 'space-between'
+  justifyContent: 'space-between',
+  a: {
+    display: 'block',
+    width: '48%'
+  }
 })
 
-export const Scanner = styled('div', {
+export const GetItPlayStore = styled('div', {
+  width: '100%'
+})
+
+export const DownloadContent = styled('div', {
   width: '100%',
-  height: '120px',
-  backgroundColor: '#fff',
-  textAlign: 'center'
+  textAlign: 'center',
+  img: {
+    width: '112px',
+    height: '112px'
+  }
 })
 
 export const Download = styled('div', {
-  margin: '32px 0px 8px 0px'
+  width: '100%',
+  margin: '32px 0px 8px'
 })
 
+export const Copyright = styled('div', {
+  fontSize: '14px'
+})
