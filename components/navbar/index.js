@@ -10,7 +10,7 @@ export default function Navbar() {
         <S.Container>
           <Link href="/">
             <S.Logo>
-              <Image src="/images/pontonet.svg" alt="Pontonet" width="143" height="35" />
+              <Image src="images/pontonet.svg" alt="Pontonet" width="143" height="35" />
             </S.Logo>
           </Link>
           <ul>
