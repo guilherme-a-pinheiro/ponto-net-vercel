@@ -33,6 +33,9 @@ export const Clientes = styled('div', {
 export const Cliente = styled('div', {
   width: 'calc(20% - 16px)',
   margin: '8px',
-  border: '1px solid #919191',
-  height: '224px'
+  height: '224px',
+  img: {
+    width: '100%',
+    height: 'auto'
+  }
 })
