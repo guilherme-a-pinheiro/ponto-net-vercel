@@ -16,7 +16,7 @@ export default function Infos() {
                 </div>
               </S.Left>
               <S.Right>
-                <h1>Imagem</h1>
+                <img src="images/medium_services_f841b814ab.png" alt="" />
               </S.Right>
             </S.MainContent>
           </S.Content>

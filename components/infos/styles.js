@@ -38,6 +38,11 @@ export const Right = styled('div', {
   height: '421px',
   justifyContent: 'center',
   textAlign: 'center',
-  backgroundColor: 'red'
+  img: {
+    objectFit: 'contain',
+    width: '100% !important',
+    position: 'relative !important',
+    height: 'unset !important'
+  }
 })
 
