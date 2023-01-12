@@ -1,6 +1,6 @@
 import { styled } from '@stitches/react';
 
-export const Contato = styled('div', {
+export const Contatos = styled('div', {
 })
 
 export const Main = styled('div', {
@@ -44,12 +44,6 @@ export const Item = styled('div', {
   borderBottom: '1px solid #CECECE',
 })
 
-export const ImgItem = styled('div', {
-  height: '28px',
-  width: '28px',
-  backgroundColor: 'blue',
-})
-
 export const ContainerItem = styled('div', {
   height: '28px',
   borderRadius: '4px',
@@ -80,5 +74,17 @@ export const ContentRight = styled('div', {
   height: '534px',
   backgroundColor: 'rgb(143, 200, 241)',
   borderRadius: '8px',
-  position: 'relative'
+  position: 'relative',
+  img: {
+    position: 'absolute',
+    height: '100%',
+    width: '100%',
+    left: '0',
+    top: '0',
+    right: '0',
+    bottom: '0',
+    color: 'transparent',
+    borderRadius: '8px',
+    objectFit: 'cover'
+  }
 })

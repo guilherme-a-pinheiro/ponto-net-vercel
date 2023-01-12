@@ -5,7 +5,7 @@ import Image from 'next/image'
 export default function Contato() {
   return (
     <>
-    <S.Contato>
+    <S.Contatos>
       <S.Main>
       <S.Content>
         <S.MainContent>
@@ -15,7 +15,7 @@ export default function Contato() {
           <p>Estamos em busca constante por evolução e aproximar você de quem e o que quiser é nosso principal objetivo. A pontonet tem o compromisso com a qualidade de seus serviços. Referência em fibra óptica, oferece a melhor internet, sem te deixar em apuros.</p>
           <S.Item>
             <S.ContainerItem>
-              <S.ImgItem />
+                <img src="images/email.svg" alt="email icon" />
             </S.ContainerItem>
               <div>
                 <S.ItemContentDestaque>E-mail</S.ItemContentDestaque>
@@ -24,7 +24,7 @@ export default function Contato() {
           </S.Item>
           <S.Item>
             <S.ContainerItem>
-              <S.ImgItem />
+                <img src="images/phone.svg" alt="phone icon" />
             </S.ContainerItem>
               <div>
                 <S.ItemContentDestaque>Telefone</S.ItemContentDestaque>
@@ -33,7 +33,7 @@ export default function Contato() {
           </S.Item>
           <S.Item>
             <S.ContainerItem>
-              <S.ImgItem />
+                <img src="images/adress.svg" alt="adress icon" />
             </S.ContainerItem>
               <div>
                 <S.ItemContentDestaque>Endereço</S.ItemContentDestaque>
@@ -43,12 +43,13 @@ export default function Contato() {
         </S.Left>
         <S.Right>
           <S.ContentRight>
+            <img src="images/large_Muenster_LVM_Buerogebaeude_2013_5149_51_990be938ff.png" alt="" />
           </S.ContentRight>
         </S.Right>
         </S.MainContent>
         </S.Content>
       </S.Main>
-    </S.Contato>
+    </S.Contatos>
     </>
   )
 }
